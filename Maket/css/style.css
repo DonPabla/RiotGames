@@ -1,0 +1,349 @@
+* {
+    box-sizing: border-box;
+}
+
+.AboutLoL p {
+    text-align: center;
+    font-size: 25x;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    padding-top: 7vh;
+}
+
+.play {
+    margin-bottom: 6vh;
+    margin-top: 4vh;
+    margin-left: 3vh;
+    border: #fff;
+    border-radius: 20px;
+}
+.play img {
+    margin-left: 13vh;
+    width: 85%;
+    border-radius: 20px;
+}
+.Aboutgames{
+    display:flex ;
+}
+.right-games{
+    position: relative;
+    width: 90%;
+}
+.AboutUs {
+    color-scheme: dark;
+    text-align: center;
+    font-family: 'Mark Pro',Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.333;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+}
+
+.page-title {
+    margin-left: 3vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 46px;
+    color: #222222;
+}
+
+.title {
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 44px;
+    color: #222222;
+}
+
+.theme {
+    position: fixed;
+    cursor: pointer;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(39,38,40,0.4);
+}
+
+.AboutLoL {
+    font-size: 25px;
+}
+
+.AboutValorant { 
+    text-align: center;
+    font-size: 25px;
+}
+
+.AboutRuined {
+    text-align: center;
+    font-size: 25px;
+}
+
+.AboutLoR {
+    text-align: center;
+    font-size: 25px;
+}
+
+.AboutRiot p {
+    margin-top: 25px;
+    color: #2b2a29;
+    text-align: center;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: 'Mark Pro',Arial,sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1.235;
+}
+
+.AboutRiot h1 {
+    text-align: center;
+}
+
+.AboutRiot img {
+    border-radius: 15px;
+}
+
+.AboutRiotGames {
+    margin-top: 2vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-family: 'Mark Pro',Arial,sans-serif;
+    font-size: 30px;
+    line-height: 1.667;
+    box-sizing: border-box;
+    font-weight: 700;
+    color: #2b2a29;
+}
+
+.footer {
+    background-color: #4A4A4A;
+    width: 111%;
+    height: 20vh;
+    margin-top: 10vh;
+}
+
+.rioturl {
+    font-weight: 500;
+    margin-left: 22vh;
+    display: flex;
+    gap: 30px;
+    transition: color .2s linear;
+}
+.rioturl__link {
+    cursor: pointer;
+    transition: color .1.5s linear;
+}
+.rioturl__link:hover  {
+    color: #fff;
+
+}
+
+.swiper{
+    width: 1000px;
+    height: 100%;
+  }
+  .swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide img{
+    width: 58%;
+    object-fit: cover;
+  }
+  .swiper-button-next, .swiper-rtl .swiper-button-prev{
+    right: 140px !important; 
+    left: auto;
+  }
+  .swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 140px !important; 
+    right: auto;
+  }
+
+@media (max-width: 800px) and (min-width:700px) {
+    .AboutUs {
+        margin: 0vh 0vh 0vh 18vh;
+        font-size: 20px;
+    }
+
+    .AboutRiot p {
+        width: 100%;
+        margin-left: 9vh;
+    }
+
+    .AboutRiot img {
+        width: 80%;
+        margin-left: 7vh;
+    }
+
+    .play img {
+        margin-left: 8vh;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .title {
+        margin-left: 32vh;
+        font-size: 42px;
+        }
+    
+        .AboutLoL {
+            font-size: 22px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .AboutLoL p {
+            text-align: center;
+            font-size: 25x;
+            padding-top: 4vh;
+            /* padding-right: 32vh; */
+            padding-left: 9vh;
+            width: 100%;
+        }
+        .AboutValorant {
+            font-size: 25px;
+            margin-left: 9vh;
+            width: 100%;
+            text-align: center;
+        }
+
+        .AboutRuined {
+            width: 100%;
+            font-size: 25px;
+            margin-left: 12vh;
+            text-align: center;
+        }
+        .footer {
+            width: 130%;
+        }
+
+        .AboutLoR {
+            font-size: 25px;
+            margin-left: 13vh;
+            width: 100%;
+            text-align: center;
+        }
+
+        .rioturl {
+            font-weight: 500;
+            margin-left: 7vh;
+            display: flex;
+            gap: 30px;
+            transition: color .2s linear;
+            font-size: 16px;
+            margin-right: 21px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .AboutRiotGames {
+                width: 100%;
+                margin-top: 1vh;
+        }
+}
+
+@media (max-width: 400px) and (min-width: 350px) {
+    .AboutUs {
+        margin-left: 370px;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .AboutRiot p {
+        font-size: 64px;
+        margin-left: 300px;
+        width: 140%;
+        margin-top: 25px;
+    }
+
+    .AboutRiot img {
+        width: 250%;
+        border-radius: 15px;
+        margin-left: 40px;
+    }
+
+    .AboutRiotGames {
+        width: 210%;
+        margin-top: 1vh;
+        margin-left: 20vh;
+        text-align: center;
+        font-size: 35px;
+    }
+    
+
+    .play img {
+        margin-left: 137px;
+        width: 210%;
+        border-radius: 20px;
+    }
+
+    .AboutLoL p {
+        text-align: center;
+        font-size: 25x;
+        padding-left: 15vh;
+        padding-top: 1vh;
+    }
+    
+    .AboutLoL {
+        font-size: 22px;
+        width: 260%;
+        text-align: center;
+    }
+
+        .AboutValorant {
+            font-size: 25px;
+            margin-left: 20vh;
+            width: 216%;
+            text-align: center;
+        }
+
+        .AboutRuined {
+            width: 230%;
+            font-size: 25px;
+            margin-left: 16vh;
+            text-align: center;
+        }
+        .footer {
+            width: 295%;
+        }
+
+        .AboutLoR {
+            font-size: 25px;
+            margin-left: 10vh;
+            width: 250%;
+            text-align: center;
+        }
+        .rioturl {
+            font-weight: 500;
+            margin-left: 7vh;
+            display: flex;
+            gap: 30px;
+            transition: color .2s linear;
+            font-size: 16px;
+            margin-right: 21px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .title {
+            text-align: center;
+            margin-left: 53vh;
+            font-size: 49px;
+            width: 100%;
+        }
+    }
